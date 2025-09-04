@@ -13,7 +13,6 @@ public class Main {
         int opcao;
 
         do {
-            System.out.println("\n==== MENU ====");
             System.out.println("1. Inserir Tarefa");
             System.out.println("2. Listar Tarefas");
             System.out.println("3. Atualizar Tarefa");
@@ -23,7 +22,7 @@ public class Main {
             System.out.println("0. Sair");
             System.out.print("Escolha uma opção: ");
             opcao = sc.nextInt();
-            sc.nextLine(); // limpa buffer
+            sc.nextLine(); 
 
             switch (opcao) {
                 case 1:
@@ -82,3 +81,4 @@ public class Main {
         sc.close();
     }
 }
+
